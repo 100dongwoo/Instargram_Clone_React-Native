@@ -8,6 +8,7 @@
 - npm install react-native-screens               **
 - npm i @react-native-community/masked-view     **
 
+- npm i redux
 
 ## expo 라이브러리
 - expo install firebase

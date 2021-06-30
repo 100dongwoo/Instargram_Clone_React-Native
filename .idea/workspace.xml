@@ -22,7 +22,11 @@
     <list default="true" id="85704a73-c15b-481b-9e8a-4aa0506d38e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +102,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1625045090597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1625045090597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1625045090597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1625045090597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
     <state x="53" y="164" key="SettingsEditor" timestamp="1625038355767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
