@@ -22,11 +22,6 @@
     <list default="true" id="85704a73-c15b-481b-9e8a-4aa0506d38e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,9 +129,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="261" y="236" width="582" height="568" key="find.popup/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625038453053" />
-    <state x="215" y="229" key="search.everywhere.popup" timestamp="1625033220307">
+    <state x="215" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1625046984693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="215" y="229" key="search.everywhere.popup/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625033220307" />
+    <state x="215" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625046984693" />
   </component>
 </project>
