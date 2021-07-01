@@ -2,7 +2,9 @@ import React from 'react';
 import { StyleSheet, View, Text, Image, FlatList, Button } from 'react-native';
 
 import { connect } from 'react-redux';
-
+import { Dimensions } from 'react-native';
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 const Profile = (props) => {
     const { currentUser, posts } = props;
     return (
@@ -45,6 +47,7 @@ const styles = StyleSheet.create({
     image: {
         flex: 1,
         aspectRatio: 1 / 1,
+        height: windowWidth / 3,
     },
 });
 
