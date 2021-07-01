@@ -21,6 +21,9 @@
 
 
 
+3:02:46
+--------------------
+
 ## expo 라이브러리
 - expo install firebase
 - expo install expo-camera

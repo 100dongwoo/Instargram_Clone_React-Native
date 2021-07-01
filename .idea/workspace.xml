@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -21,10 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="85704a73-c15b-481b-9e8a-4aa0506d38e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/constants/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/reducers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/reducers/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,8 @@
       <updated>1625033131443</updated>
       <workItem from="1625033134824" duration="6739000" />
       <workItem from="1625115113500" duration="10611000" />
+      <workItem from="1625131616732" duration="1128000" />
+      <workItem from="1625144957357" duration="5652000" />
     </task>
     <servers />
   </component>
