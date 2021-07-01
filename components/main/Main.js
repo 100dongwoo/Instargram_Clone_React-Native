@@ -4,7 +4,7 @@ import { Text, View } from 'react-native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchUser } from '../../redux/actions';
+import { fetchUser, fetchUserPosts } from '../../redux/actions';
 import FeedScreen from './Feed';
 
 import ProfileScreen from './Profile';
@@ -18,6 +18,7 @@ const Tab = createMaterialBottomTabNavigator();
 export class Main extends Component {
     componentDidMount() {
         this.props.fetchUser();
+        this.props.fetchUserPosts();
     }
 
     render() {
@@ -76,6 +77,7 @@ export class Main extends Component {
 const mapStateToProps = (store) => ({
     currentUser: store.userState.currentUser,
 });
-const mapDispatchToProps = (dispatch) =>
-    bindActionCreators({ fetchUser }, dispatch);
-export default connect(mapStateToProps, mapDispatchToProps)(Main);
+const mapDispatchProps = (dispatch) =>
+    bindActionCreators({ fetchUser, fetchUserPosts }, dispatch);
+
+export default connect(mapStateToProps, mapDispatchProps)(Main);
