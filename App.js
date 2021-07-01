@@ -12,6 +12,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import rootReducer from './redux/reducers';
 import thunk from 'redux-thunk';
+import AddScreen from './components/main/Add';
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 if (firebase.apps.length === 0) {
@@ -19,6 +20,7 @@ if (firebase.apps.length === 0) {
 }
 const Stack = createStackNavigator();
 import Main from './components/main/Main';
+
 export class App extends Component {
     constructor(props) {
         super(props);
@@ -26,6 +28,7 @@ export class App extends Component {
             loaded: false,
         };
     }
+
     componentDidMount() {
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
@@ -72,9 +75,19 @@ export class App extends Component {
 
         return (
             <Provider store={store}>
-                <MainScreen />
+                <NavigationContainer>
+                    <Stack.Navigator initialRouteName="Main">
+                        <Stack.Screen
+                            name="Main"
+                            component={MainScreen}
+                            options={{ headerShown: false }}
+                        />
+                        <Stack.Screen name="Add" component={AddScreen} />
+                    </Stack.Navigator>
+                </NavigationContainer>
             </Provider>
         );
     }
 }
+
 export default App;

@@ -9,6 +9,16 @@
 - npm i @react-native-community/masked-view     **
 
 - npm i redux
+- npm i react-redux
+- npm i redux-thunk
+
+- npm i react-native-vector-icons
+
+- npm install @react-navigation/bottom-tabs
+
+- npm install @react-navigation/material-bottom-tabs
+- npm install react-native-paper            **
+
 
 ## expo 라이브러리
 - expo install firebase

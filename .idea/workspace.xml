@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85704a73-c15b-481b-9e8a-4aa0506d38e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/instagram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/instagram.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +46,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1uejpWAIli5x3DWdZenKleKM8HM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,9 +75,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\dongwoo\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,11 +91,12 @@
       <option name="presentableId" value="Default" />
       <updated>1625033131443</updated>
       <workItem from="1625033134824" duration="6739000" />
+      <workItem from="1625115113500" duration="1998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -95,43 +108,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1625045090597">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
-    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1625045090597">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
-    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1625045090597">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
-    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1625045090597">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625045090597" />
-    <state x="53" y="164" key="SettingsEditor" timestamp="1625038355767">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="53" y="164" key="SettingsEditor/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625038355767" />
-    <state x="198" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1625037010972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="198" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625037010972" />
-    <state x="355" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625033150120">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="355" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625033150120" />
-    <state x="261" y="236" width="582" height="568" key="find.popup" timestamp="1625038453053">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="261" y="236" width="582" height="568" key="find.popup/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625038453053" />
-    <state x="215" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1625046984693">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="215" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1625046984693" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
