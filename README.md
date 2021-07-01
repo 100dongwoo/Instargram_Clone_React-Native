@@ -20,5 +20,8 @@
 - npm install react-native-paper            **
 
 
+
 ## expo 라이브러리
 - expo install firebase
+- expo install expo-camera
+- expo install expo-image-picker
