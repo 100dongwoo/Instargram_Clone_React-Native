@@ -1,8 +1,13 @@
-import { USER_POSTS_STATE_CHANG, USER_STATE_CHANG } from '../constants';
+import {
+    USER_FOLLOWING_STATE_CHANGE,
+    USER_POSTS_STATE_CHANG,
+    USER_STATE_CHANG,
+} from '../constants';
 
 const initialState = {
     currentUser: null,
     posts: [],
+    following: [],
 };
 export const user = (state = initialState, action) => {
     switch (action.type) {
@@ -15,6 +20,11 @@ export const user = (state = initialState, action) => {
             return {
                 ...state,
                 posts: action.posts,
+            };
+        case USER_FOLLOWING_STATE_CHANGE:
+            return {
+                ...state,
+                following: action.following,
             };
         default:
             return state;
