@@ -149,8 +149,6 @@ export function fetchUsersFollowingLikes(uid, postId) {
                 // const postId = snapshot.ZE.path.segments[3];
                 const postId = snapshot.ref.path.split('/')[3];
 
-                console.log(postId);
-
                 let currentUserLike = false;
                 if (snapshot.exists) {
                     currentUserLike = true;
