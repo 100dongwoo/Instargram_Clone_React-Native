@@ -8,6 +8,7 @@ import {
     fetchUser,
     fetchUserFollowing,
     fetchUserPosts,
+    clearData,
 } from '../../redux/actions';
 import FeedScreen from './Feed';
 
@@ -26,6 +27,7 @@ export class Main extends Component {
         this.props.fetchUser();
         this.props.fetchUserPosts();
         this.props.fetchUserFollowing();
+        this.props.clearData();
     }
 
     render() {
@@ -108,7 +110,7 @@ const mapStateToProps = (store) => ({
 });
 const mapDispatchProps = (dispatch) =>
     bindActionCreators(
-        { fetchUser, fetchUserPosts, fetchUserFollowing },
+        { fetchUser, fetchUserPosts, fetchUserFollowing, clearData },
         dispatch
     );
 
