@@ -21,6 +21,7 @@ if (firebase.apps.length === 0) {
 const Stack = createStackNavigator();
 import Main from './components/main/Main';
 import SaveScreen from './components/main/Save';
+import CommentScreen from './components/main/Comment';
 
 export class App extends Component {
     constructor(props) {
@@ -87,6 +88,11 @@ export class App extends Component {
                         <Stack.Screen
                             name="Save"
                             component={SaveScreen}
+                            navigation={this.props.navigation}
+                        />
+                        <Stack.Screen
+                            name="Comment"
+                            component={CommentScreen}
                             navigation={this.props.navigation}
                         />
                     </Stack.Navigator>
