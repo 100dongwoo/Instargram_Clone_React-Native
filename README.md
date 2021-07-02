@@ -28,3 +28,8 @@
 - expo install firebase
 - expo install expo-camera
 - expo install expo-image-picker
+
+
+### Error
+- aspectRatio 작동 x 
+
