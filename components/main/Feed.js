@@ -1,12 +1,83 @@
-import React from 'react';
-import { Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View, Text, Image, FlatList, Button } from 'react-native';
 
-const Feed = () => {
+import { connect } from 'react-redux';
+import { Dimensions } from 'react-native';
+import firebase from 'firebase';
+
+require('firebase/firestore');
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+const Feed = (props) => {
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        let posts = [];
+        if (props.usersLoaded == props.following.length) {
+            for (let i = 0; i < props.following.length; i++) {
+                const user = props.users.find(
+                    (el) => el.uid === props.following[i]
+                );
+                if (user !== undefined) {
+                    posts = [...posts, user.posts];
+                }
+            }
+
+            posts.sort(function (x, y) {
+                return x.creation - y.creation;
+            });
+            setPosts(posts[0]);
+        }
+    }, [props.usersLoaded]);
+
     return (
-        <View>
-            <Text>Feed</Text>
+        <View style={styles.container}>
+            <View style={styles.containerGallery}>
+                <FlatList
+                    numColumns={1}
+                    horizontal={false}
+                    data={posts}
+                    renderItem={({ item }) => (
+                        <View style={styles.containerImage}>
+                            <Text style={styles.container}>
+                                {item.user.name}
+                            </Text>
+                            <Image
+                                style={styles.image}
+                                source={{ uri: item.downloadURL }}
+                            />
+                        </View>
+                    )}
+                />
+            </View>
         </View>
     );
 };
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    containerInfo: {
+        margin: 20,
+    },
+    containerGallery: {
+        flex: 1,
+    },
+    containerImage: {
+        flex: 1 / 3,
+    },
+    image: {
+        flex: 1,
+        aspectRatio: 1 / 1,
+        height: windowWidth / 3,
+    },
+});
 
-export default Feed;
+const mapStateToProps = (store) => ({
+    currentUser: store.userState.currentUser,
+    following: store.userState.following,
+    users: store.usersState.users,
+    usersLoaded: store.usersState.usersLoaded,
+});
+export default connect(mapStateToProps, null)(Feed);
+// export default Profile;

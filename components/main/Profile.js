@@ -15,6 +15,7 @@ const Profile = (props) => {
     //
     useEffect(() => {
         const { currentUser, posts } = props;
+
         if (props.route.params.uid === firebase.auth().currentUser.uid) {
             setUser(currentUser);
             setUserPosts(posts);
@@ -101,6 +102,7 @@ const Profile = (props) => {
                     data={userPosts}
                     renderItem={({ item }) => (
                         <View style={styles.containerImage}>
+                            {/*{console.log('qwe', item.downloadURL)}*/}
                             <Image
                                 style={styles.image}
                                 source={{ uri: item.downloadURL }}
